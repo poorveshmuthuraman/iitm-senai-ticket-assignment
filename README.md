@@ -58,7 +58,7 @@ Requesting `GET /ticket` returns all the tickets raised by all users and who the
 }
 ```
 
-## Users
+## `/users`
 
 ### POST
 
