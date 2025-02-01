@@ -4,7 +4,7 @@ from ticketapp import db, app
 
 class UserModel(db.Model):
     user_id = db.Column(db.Integer, primary_key=True) # will auto increment user_id from 1
-    username = db.Column(db.String(32), nullable=False)
+    username = db.Column(db.String(32), nullable=False) # username field is required
 
 
 class TicketModel(db.Model):
